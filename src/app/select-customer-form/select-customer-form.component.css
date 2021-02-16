@@ -1,0 +1,26 @@
+::-webkit-calendar-picker-indicator {
+    filter: invert(1) brightness(70%);
+}
+
+input, select {
+    background-color: inherit;
+    color: white;
+}
+
+input:focus {
+    /* background-color: rgb(245, 245, 245, 0.4); */
+    background-color: inherit;
+    color: white;
+    border: 1px solid #719ECE;
+    box-shadow: 0 0 4px #719ECE;
+}
+
+option {
+    background-color: #161B22;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #0D1117 inset !important;
+    box-shadow: 0 0 0 30px #0D1117 inset !important;
+    -webkit-text-fill-color: white !important;
+}

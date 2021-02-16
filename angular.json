@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ngx-toastr/toastr.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Form-Customer"
+  "defaultProject": "Form-Customer",
+  "cli": {
+    "analytics": "bf74ca37-0b70-4d35-b350-b73d15c0d71f"
+  }
 }

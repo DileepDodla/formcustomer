@@ -1,0 +1,40 @@
+/* input, input:focus, select, select:enabled {
+    background-color: rgb(128, 128, 128, 0.1) !important;
+    color: white;
+    border: 1px solid gray;
+}
+
+select option {
+    background-color: rgb(128, 128, 128, 0.1) !important;
+    color: white !important;
+} */
+
+/* input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+} */
+
+input, select {
+    background-color: inherit;
+    color: white;
+}
+
+input:focus, select:focus {
+    /* background-color: rgb(245, 245, 245, 0.4); */
+    background-color: inherit;
+    color: white;
+    border: 1px solid #719ECE;
+    box-shadow: 0 0 4px #719ECE;
+}
+
+option, option:disabled {
+    background-color: #161B22;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #0D1117 inset !important;
+    box-shadow: 0 0 0 30px #0D1117 inset !important;
+    -webkit-text-fill-color: white !important;
+}
